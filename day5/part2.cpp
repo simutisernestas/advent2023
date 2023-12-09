@@ -63,7 +63,7 @@ int main() {
     std::reverse(order_of_iter.begin(), order_of_iter.end());
     long location = 0;
     uint8_t found = 0;
-    long step = 100000;
+    long step = 10000;
     while (true) {
         long pre_entity = location;
         for (const auto &map: order_of_iter) {
